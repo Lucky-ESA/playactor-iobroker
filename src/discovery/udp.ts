@@ -18,7 +18,7 @@ import {
     OnDiscoveryMessageHandler,
 } from "./model";
 
-const debug = _debug("playactor-iobroker:discovery:udp");
+const debug = _debug("playactor-iob:discovery:udp");
 
 const BROADCAST_ADDRESS = "255.255.255.255";
 

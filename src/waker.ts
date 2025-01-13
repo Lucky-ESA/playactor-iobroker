@@ -15,7 +15,7 @@ import { redact } from "./util/redact";
 import { IWakerNetworkFactory } from "./waker/model";
 import { UdpWakerNetworkFactory } from "./waker/udp";
 
-const debug = _debug("playactor-iobroker:waker");
+const debug = _debug("playactor-iob:waker");
 
 export enum WakeResult {
     ALREADY_AWAKE,

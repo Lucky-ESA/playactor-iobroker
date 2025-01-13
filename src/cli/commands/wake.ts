@@ -4,7 +4,7 @@ import { Command, command, metadata } from "clime";
 
 import { DeviceOptions } from "../options";
 
-const debug = _debug("playactor-iobroker:commands:wake");
+const debug = _debug("playactor-iob:commands:wake");
 
 @command({
     description: "Wake up the device",

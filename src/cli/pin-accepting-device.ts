@@ -9,7 +9,7 @@ import { LoginResultError } from "../socket/packets/incoming/login-result";
 import { ExitCode } from "./exit-codes";
 import { IInputOutput } from "./io";
 
-const debug = _debug("playactor-iobroker:cli:pin");
+const debug = _debug("playactor-iob:cli:pin");
 
 /**
  * The PinAcceptingDevice delegates to another IDevice implementation

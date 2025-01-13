@@ -9,7 +9,7 @@ import { ModernCryptoStrategy } from "./crypto/modern";
 import { RemotePlayVersion, remotePlayVersionFor } from "./model";
 import { CRYPTO_NONCE_LENGTH } from "./protocol";
 
-const debug = _debug("playactor-iobroker:remoteplay:crypto");
+const debug = _debug("playactor-iob:remoteplay:crypto");
 
 function generateNonce() {
     const nonce = Buffer.alloc(CRYPTO_NONCE_LENGTH);

@@ -9,7 +9,7 @@ export function determineDefaultFile() {
     return joinPath(homedir(), ".config", "playactor-iobroker", "credentials.json");
 }
 
-const debug = _debug("playactor-iobroker:credentials:disk");
+const debug = _debug("playactor-iob:credentials:disk");
 
 export class DiskCredentialsStorage implements ICredentialStorage {
     public readonly filePath: string;

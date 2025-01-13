@@ -6,7 +6,7 @@ import {
 
 const DEFAULT_MIN_PACKET_LENGTH = 4;
 
-const debug = _debug("playactor-iobroker:socket:base");
+const debug = _debug("playactor-iob:socket:base");
 
 export interface IOptions {
     minPacketLength?: number;

@@ -11,7 +11,7 @@ import { RemotePlayPasscodeResponsePacket } from "../packets/passcode-response";
 
 type Result = RemotePlayLoginResultPacket | RemotePlayPasscodeRequestPacket;
 
-const debug = _debug("playactor-iobroker:remoteplay:LoginProc");
+const debug = _debug("playactor-iob:remoteplay:LoginProc");
 
 export class RemotePlayLoginProc implements IDeviceProc {
     constructor(

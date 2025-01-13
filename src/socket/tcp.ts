@@ -21,7 +21,7 @@ const protocolsByVersion = {
     [DeviceType.PS5]: undefined,
 };
 
-const debug = _debug("playactor-iobroker:socket:tcp");
+const debug = _debug("playactor-iob:socket:tcp");
 
 export interface IOptions {
     refSocket: boolean;

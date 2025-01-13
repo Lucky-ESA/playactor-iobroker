@@ -11,7 +11,7 @@ import { StandardDiscoveryNetworkFactory } from "./discovery/standard";
 
 import { CancellableAsyncSink } from "./util/async";
 
-const debug = _debug("playactor-iobroker:discovery");
+const debug = _debug("playactor-iob:discovery");
 
 export class Discovery {
     private readonly discoveryConfig: IDiscoveryConfig;

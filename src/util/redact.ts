@@ -50,7 +50,7 @@ export function redact(value: Record<string, unknown>): Record<string, unknown>;
 export function redact(value: object): object;  // eslint-disable-line
 export function redact<T>(value: T[]): T[];
 export function redact(value: unknown): unknown {
-    if (debug.enabled("playactor-unredacted")) {
+    if (debug.enabled("playactor-iob-unredacted")) {
         return value;
     }
 

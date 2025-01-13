@@ -9,7 +9,7 @@ import { HandshakePacket } from "../packets/outgoing/handshake";
 import { ServerHelloPacket } from "../packets/incoming/server-hello";
 import { PacketType } from "../packets/types";
 
-const debug = _debug("playactor-iobroker:proc:handshake");
+const debug = _debug("playactor-iob:proc:handshake");
 
 const PUBLIC_KEY = `-----BEGIN PUBLIC KEY-----
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxfAO/MDk5ovZpp7xlG9J

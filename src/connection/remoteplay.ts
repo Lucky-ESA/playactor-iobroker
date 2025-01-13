@@ -4,7 +4,7 @@ import { RemotePlayCommand, RemotePlayOutgoingPacket } from "../remoteplay/packe
 import { IDeviceSocket } from "../socket/model";
 import { IDeviceConnection } from "./model";
 
-const debug = _debug("playactor-iobroker:connection:remoteplay");
+const debug = _debug("playactor-iob:connection:remoteplay");
 
 export class RemotePlayDeviceConnection implements IDeviceConnection {
     constructor(

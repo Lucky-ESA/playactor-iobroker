@@ -9,7 +9,7 @@ import { redact } from "../../util/redact";
 import { ICredentialRequester, ICredentials } from "../model";
 import { OauthStrategy } from "./model";
 
-const debug = _debug("playactor-iobroker:credentials:oauth");
+const debug = _debug("playactor-iob:credentials:oauth");
 
 // Remote Play Windows Client
 // TODO: it'd be nice to pull these for macOS and Linux so any

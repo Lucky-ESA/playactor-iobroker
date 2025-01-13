@@ -16,7 +16,7 @@ import {
     RemotePlayDeviceProtocol, request, typedPath, urlWith,
 } from "./protocol";
 
-const debug = _debug("playactor-iobroker:remoteplay:session");
+const debug = _debug("playactor-iob:remoteplay:session");
 
 const DID_PREFIX = Buffer.from([
     0x00, 0x18, 0x00, 0x00, 0x00, 0x07, 0x00, 0x40, 0x00, 0x80,

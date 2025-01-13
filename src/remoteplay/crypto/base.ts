@@ -7,7 +7,7 @@ import { RemotePlayVersion } from "../model";
 import { CRYPTO_NONCE_LENGTH, parseHexBytes } from "../protocol";
 import { ICryptoStrategy } from "./model";
 
-const debug = _debug("playactor-iobroker:remoteplay:crypto:base");
+const debug = _debug("playactor-iob:remoteplay:crypto:base");
 
 const CRYPTO_ALGORITHM = "aes-128-cfb";
 const PADDING_BYTES = 480;

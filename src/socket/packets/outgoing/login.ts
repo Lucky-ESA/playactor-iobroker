@@ -20,7 +20,7 @@ export interface ILoginConfig {
 
 const defaultConfig: ILoginConfig = {
     appLabel: "PlayStation",
-    model: "PlayActor-iobroker",
+    model: "PlayActor-iob",
     osVersion: "4.4",
     passCode: "",
     pinCode: "",

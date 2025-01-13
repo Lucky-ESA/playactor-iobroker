@@ -19,10 +19,10 @@ export interface IEmulatorOptions {
 
 const defaultEmulatorOptions = {
     hostId: "1234567890AB",
-    hostName: "PlayActor-iobroker",
+    hostName: "PlayActor-iob",
 };
 
-const debug = _debug("playactor-iobroker:credentials:mim");
+const debug = _debug("playactor-iob:credentials:mim");
 
 /**
  * The MimCredentialRequester works by emulating a PlayStation device

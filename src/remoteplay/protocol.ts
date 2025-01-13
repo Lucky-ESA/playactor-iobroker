@@ -14,7 +14,7 @@ import {
 import { RemotePlayLoginResultPacket } from "./packets/login-result";
 import { RemotePlayPasscodeRequestPacket } from "./packets/passcode-request";
 
-const debug = _debug("playactor-iobroker:remoteplay:protocol");
+const debug = _debug("playactor-iob:remoteplay:protocol");
 
 export const REST_PORT = 9295;
 export const CRYPTO_NONCE_LENGTH = 16;

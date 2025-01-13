@@ -3,7 +3,7 @@ import _debug from "debug";
 import { IDiscoveredDevice } from "../discovery/model";
 import { ICredentialRequester, ICredentials } from "./model";
 
-const debug = _debug("playactor-iobroker:credentials:root");
+const debug = _debug("playactor-iob:credentials:root");
 
 export class RootMissingError extends Error {
 }

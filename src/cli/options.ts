@@ -38,7 +38,7 @@ import { OauthCredentialRequester } from "../credentials/oauth/requester";
 import { DeviceTypeStrategyCredentialRequester } from "../credentials/device-type-strategy";
 import { WriteOnlyStorage } from "../credentials/write-only-storage";
 
-const log = debug("playactor:cli:options");
+const log = debug("playactor-iob:cli:options");
 
 export class InputOutputOptions extends Options implements IInputOutput {
     /* eslint-disable no-console */
@@ -99,7 +99,7 @@ export class InputOutputOptions extends Options implements IInputOutput {
 
     public async configureLogging() {
         if (this.enableDebug) {
-            debug.enable("playactor-iobroker:*");
+            debug.enable("playactor-iob:*");
         }
     }
 }

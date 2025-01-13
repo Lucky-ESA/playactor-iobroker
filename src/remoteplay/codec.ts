@@ -4,7 +4,7 @@ import { IRemotePlayCredentials } from "../credentials/model";
 import { IPacketCodec } from "../socket/model";
 import { ICryptoStrategy } from "./crypto/model";
 
-const debug = _debug("playactor-iobroker:remoteplay:codec");
+const debug = _debug("playactor-iob:remoteplay:codec");
 
 const HEADER_SIZE = 8;
 

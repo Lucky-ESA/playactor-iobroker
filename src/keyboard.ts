@@ -7,7 +7,7 @@ import {
 import { OskChangeStringPacket } from "./socket/packets/outgoing/osk-change-string";
 import { OskControlPacket } from "./socket/packets/outgoing/osk-control";
 
-const debug = _debug("playactor-iobroker:keyboard");
+const debug = _debug("playactor-iob:keyboard");
 
 /**
  * Represents an active on-screen keyboard control session

@@ -19,7 +19,7 @@ const RunningAppName = "running-app-name";
 // the console is sending in this situation
 const WillQuitExistingAppResult = 12;
 
-const debug = _debug("playactor-iobroker:secondscreen:connection");
+const debug = _debug("playactor-iob:secondscreen:connection");
 
 export class SecondScreenDeviceConnection implements IDeviceConnection {
     constructor(
