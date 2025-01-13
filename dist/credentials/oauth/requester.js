@@ -18,7 +18,7 @@ const got_1 = __importDefault(require("got"));
 const protocol_1 = require("../../remoteplay/protocol");
 const registration_1 = require("../../remoteplay/registration");
 const redact_1 = require("../../util/redact");
-const debug = debug_1.default("playactor-iobroker:credentials:oauth");
+const debug = debug_1.default("playactor-iob:credentials:oauth");
 // Remote Play Windows Client
 // TODO: it'd be nice to pull these for macOS and Linux so any
 // login history/notification will show the right platform

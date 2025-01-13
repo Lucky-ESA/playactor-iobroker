@@ -9,7 +9,7 @@ const base_1 = require("../base");
 const types_1 = require("../types");
 const defaultConfig = {
     appLabel: "PlayStation",
-    model: "PlayActor-iobroker",
+    model: "PlayActor-iob",
     osVersion: "4.4",
     passCode: "",
     pinCode: "",

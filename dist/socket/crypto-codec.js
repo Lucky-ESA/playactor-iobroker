@@ -9,7 +9,7 @@ const debug_1 = __importDefault(require("debug"));
 const CRYPTO_ALGORITHM = "aes-128-cbc";
 // I don't think true randomness is required
 const randomSeed = Buffer.alloc(16, 0);
-const debug = debug_1.default("playactor-iobroker:socket:crypto");
+const debug = debug_1.default("playactor-iob:socket:crypto");
 class CryptoCodec {
     constructor(initVector, seed = randomSeed, algorithm = CRYPTO_ALGORITHM) {
         this.initVector = initVector;

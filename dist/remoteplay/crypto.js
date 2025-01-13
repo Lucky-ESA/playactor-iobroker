@@ -11,7 +11,7 @@ const legacy_1 = require("./crypto/legacy");
 const modern_1 = require("./crypto/modern");
 const model_1 = require("./model");
 const protocol_1 = require("./protocol");
-const debug = debug_1.default("playactor-iobroker:remoteplay:crypto");
+const debug = debug_1.default("playactor-iob:remoteplay:crypto");
 function generateNonce() {
     const nonce = Buffer.alloc(protocol_1.CRYPTO_NONCE_LENGTH);
     crypto_1.default.randomFillSync(nonce);

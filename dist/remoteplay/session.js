@@ -21,7 +21,7 @@ const crypto_1 = require("./crypto");
 const model_1 = require("./model");
 const login_1 = require("./proc/login");
 const protocol_1 = require("./protocol");
-const debug = debug_1.default("playactor-iobroker:remoteplay:session");
+const debug = debug_1.default("playactor-iob:remoteplay:session");
 const DID_PREFIX = Buffer.from([
     0x00, 0x18, 0x00, 0x00, 0x00, 0x07, 0x00, 0x40, 0x00, 0x80,
 ]);

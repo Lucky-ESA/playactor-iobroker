@@ -7,7 +7,7 @@ exports.TypedPacketReader = exports.LengthDelimitedBufferReader = void 0;
 const debug_1 = __importDefault(require("debug"));
 const model_1 = require("../model");
 const DEFAULT_MIN_PACKET_LENGTH = 4;
-const debug = debug_1.default("playactor-iobroker:socket:base");
+const debug = debug_1.default("playactor-iob:socket:base");
 class LengthDelimitedBufferReader {
     constructor({ minPacketLength = DEFAULT_MIN_PACKET_LENGTH, lengthIncludesHeader = true, littleEndian = true, } = {}) {
         this.minPacketLength = minPacketLength;

@@ -20,7 +20,7 @@ exports.wakePortsByType = {
     [model_1.DeviceType.PS4]: 987,
     [model_1.DeviceType.PS5]: 9302,
 };
-const debug = debug_1.default("playactor-iobroker:waker:udp");
+const debug = debug_1.default("playactor-iob:waker:udp");
 class UdpWakerNetwork {
     constructor(config) {
         this.config = config;

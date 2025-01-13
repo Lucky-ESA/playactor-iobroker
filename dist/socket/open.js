@@ -22,7 +22,7 @@ const model_3 = require("./model");
 const handshake_1 = require("./proc/handshake");
 const login_1 = require("./proc/login");
 const tcp_1 = require("./tcp");
-const debug = debug_1.default("playactor-iobroker:socket:open");
+const debug = debug_1.default("playactor-iob:socket:open");
 /**
  * If thrown when trying to authenticate, the device has probably
  * closed the socket and, because we're not authenticated, will

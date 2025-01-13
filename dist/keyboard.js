@@ -17,7 +17,7 @@ const debug_1 = __importDefault(require("debug"));
 const osk_1 = require("./socket/osk");
 const osk_change_string_1 = require("./socket/packets/outgoing/osk-change-string");
 const osk_control_1 = require("./socket/packets/outgoing/osk-control");
-const debug = debug_1.default("playactor-iobroker:keyboard");
+const debug = debug_1.default("playactor-iob:keyboard");
 /**
  * Represents an active on-screen keyboard control session
  */

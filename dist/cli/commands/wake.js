@@ -24,7 +24,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const debug_1 = __importDefault(require("debug"));
 const clime_1 = require("clime");
 const options_1 = require("../options");
-const debug = debug_1.default("playactor-iobroker:commands:wake");
+const debug = debug_1.default("playactor-iob:commands:wake");
 let default_1 = class default_1 extends clime_1.Command {
     execute(deviceSpec) {
         return __awaiter(this, void 0, void 0, function* () {

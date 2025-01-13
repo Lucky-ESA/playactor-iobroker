@@ -42,7 +42,7 @@ const cli_1 = require("../credentials/oauth/cli");
 const requester_1 = require("../credentials/oauth/requester");
 const device_type_strategy_1 = require("../credentials/device-type-strategy");
 const write_only_storage_1 = require("../credentials/write-only-storage");
-const log = debug_1.default("playactor:cli:options");
+const log = debug_1.default("playactor-iob:cli:options");
 class InputOutputOptions extends clime_1.Options {
     constructor() {
         /* eslint-disable no-console */
@@ -85,7 +85,7 @@ class InputOutputOptions extends clime_1.Options {
     configureLogging() {
         return __awaiter(this, void 0, void 0, function* () {
             if (this.enableDebug) {
-                debug_1.default.enable("playactor-iobroker:*");
+                debug_1.default.enable("playactor-iob:*");
             }
         });
     }

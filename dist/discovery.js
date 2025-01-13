@@ -8,7 +8,7 @@ const debug_1 = __importDefault(require("debug"));
 const model_1 = require("./discovery/model");
 const standard_1 = require("./discovery/standard");
 const async_1 = require("./util/async");
-const debug = debug_1.default("playactor-iobroker:discovery");
+const debug = debug_1.default("playactor-iob:discovery");
 class Discovery {
     constructor(config = {}, networkFactory = standard_1.StandardDiscoveryNetworkFactory) {
         this.networkFactory = networkFactory;

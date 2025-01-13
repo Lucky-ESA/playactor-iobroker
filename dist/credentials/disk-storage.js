@@ -21,7 +21,7 @@ function determineDefaultFile() {
     return path_1.join(os_1.homedir(), ".config", "playactor-iobroker", "credentials.json");
 }
 exports.determineDefaultFile = determineDefaultFile;
-const debug = debug_1.default("playactor-iobroker:credentials:disk");
+const debug = debug_1.default("playactor-iob:credentials:disk");
 class DiskCredentialsStorage {
     constructor(filePath) {
         this.filePath = filePath !== null && filePath !== void 0 ? filePath : determineDefaultFile();

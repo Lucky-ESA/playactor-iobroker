@@ -22,7 +22,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.RemotePlayDeviceConnection = void 0;
 const debug_1 = __importDefault(require("debug"));
 const packets_1 = require("../remoteplay/packets");
-const debug = debug_1.default("playactor-iobroker:connection:remoteplay");
+const debug = debug_1.default("playactor-iob:connection:remoteplay");
 class RemotePlayDeviceConnection {
     constructor(socket) {
         this.socket = socket;

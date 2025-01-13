@@ -26,7 +26,7 @@ const RunningAppName = "running-app-name";
 // (which would call this NO_SUCH_GAME) but does seem to be what
 // the console is sending in this situation
 const WillQuitExistingAppResult = 12;
-const debug = debug_1.default("playactor-iobroker:secondscreen:connection");
+const debug = debug_1.default("playactor-iob:secondscreen:connection");
 class SecondScreenDeviceConnection {
     constructor(resolveDevice, socket) {
         this.resolveDevice = resolveDevice;

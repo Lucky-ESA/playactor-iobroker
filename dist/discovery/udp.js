@@ -19,7 +19,7 @@ const protocol_1 = require("../protocol");
 const redact_1 = require("../util/redact");
 const messages_1 = require("./messages");
 const model_1 = require("./model");
-const debug = debug_1.default("playactor-iobroker:discovery:udp");
+const debug = debug_1.default("playactor-iob:discovery:udp");
 const BROADCAST_ADDRESS = "255.255.255.255";
 class UdpSocketManager {
     constructor() {

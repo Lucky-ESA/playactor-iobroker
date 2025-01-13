@@ -18,7 +18,7 @@ const helpers_1 = require("../../socket/helpers");
 const login_result_1 = require("../../socket/packets/incoming/login-result");
 const packets_1 = require("../packets");
 const passcode_response_1 = require("../packets/passcode-response");
-const debug = debug_1.default("playactor-iobroker:remoteplay:LoginProc");
+const debug = debug_1.default("playactor-iob:remoteplay:LoginProc");
 class RemotePlayLoginProc {
     constructor(config) {
         this.config = config;

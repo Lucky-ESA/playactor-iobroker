@@ -20,7 +20,7 @@ const helpers_1 = require("../helpers");
 const client_hello_1 = require("../packets/outgoing/client-hello");
 const handshake_1 = require("../packets/outgoing/handshake");
 const types_1 = require("../packets/types");
-const debug = debug_1.default("playactor-iobroker:proc:handshake");
+const debug = debug_1.default("playactor-iob:proc:handshake");
 const PUBLIC_KEY = `-----BEGIN PUBLIC KEY-----
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxfAO/MDk5ovZpp7xlG9J
 JKc4Sg4ztAz+BbOt6Gbhub02tF9bryklpTIyzM0v817pwQ3TCoigpxEcWdTykhDL

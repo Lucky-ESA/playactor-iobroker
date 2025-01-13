@@ -58,7 +58,7 @@ class RpcError extends Error {
     }
 }
 exports.RpcError = RpcError;
-const rpcDebug = debug_1.default("playactor-iobroker:socket:rpc");
+const rpcDebug = debug_1.default("playactor-iob:socket:rpc");
 function performRpc(socket, request, ...resultTypes) {
     return __awaiter(this, void 0, void 0, function* () {
         yield socket.send(request);

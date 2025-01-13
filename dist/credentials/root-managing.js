@@ -14,7 +14,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.RootManagingCredentialRequester = exports.RootMissingError = void 0;
 const debug_1 = __importDefault(require("debug"));
-const debug = debug_1.default("playactor-iobroker:credentials:root");
+const debug = debug_1.default("playactor-iob:credentials:root");
 class RootMissingError extends Error {
 }
 exports.RootMissingError = RootMissingError;

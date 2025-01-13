@@ -25,9 +25,9 @@ const async_1 = require("../util/async");
 const udp_1 = require("../waker/udp");
 const defaultEmulatorOptions = {
     hostId: "1234567890AB",
-    hostName: "PlayActor-iobroker",
+    hostName: "PlayActor-iob",
 };
-const debug = debug_1.default("playactor-iobroker:credentials:mim");
+const debug = debug_1.default("playactor-iob:credentials:mim");
 /**
  * The MimCredentialRequester works by emulating a PlayStation device
  * on the network that the PlayStation App can connect to. It then

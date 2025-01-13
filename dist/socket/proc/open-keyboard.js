@@ -18,7 +18,7 @@ const keyboard_1 = require("../../keyboard");
 const helpers_1 = require("../helpers");
 const osk_start_1 = require("../packets/outgoing/osk-start");
 const types_1 = require("../packets/types");
-const debug = debug_1.default("playactor-iobroker:socket:OpenKeyboardProc");
+const debug = debug_1.default("playactor-iob:socket:OpenKeyboardProc");
 class OpenKeyboardProc {
     perform(socket) {
         return __awaiter(this, void 0, void 0, function* () {

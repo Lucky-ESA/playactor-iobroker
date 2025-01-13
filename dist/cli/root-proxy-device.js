@@ -19,7 +19,7 @@ const path_1 = require("path");
 const credentials_1 = require("../credentials");
 const root_managing_1 = require("../credentials/root-managing");
 const open_1 = require("../socket/open");
-const debug = debug_1.default("playactor-iobroker:cli:root");
+const debug = debug_1.default("playactor-iob:cli:root");
 const PROXIED_ID_ARG = "--proxied-user-id";
 class RootProxiedError extends Error {
     print() {

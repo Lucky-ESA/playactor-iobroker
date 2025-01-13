@@ -27,7 +27,7 @@ const standard_1 = require("./discovery/standard");
 const protocol_1 = require("./protocol");
 const redact_1 = require("./util/redact");
 const udp_1 = require("./waker/udp");
-const debug = debug_1.default("playactor-iobroker:waker");
+const debug = debug_1.default("playactor-iob:waker");
 var WakeResult;
 (function (WakeResult) {
     WakeResult[WakeResult["ALREADY_AWAKE"] = 0] = "ALREADY_AWAKE";

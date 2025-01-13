@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.BufferPacketProcessor = void 0;
 const debug_1 = __importDefault(require("debug"));
 const model_1 = require("./model");
-const debug = debug_1.default("playactor-iobroker:socket:BufferPacketProcessor");
+const debug = debug_1.default("playactor-iob:socket:BufferPacketProcessor");
 class BufferPacketProcessor {
     constructor(protocol, codec, onNewPacket) {
         this.protocol = protocol;

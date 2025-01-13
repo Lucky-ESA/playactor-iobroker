@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.RemotePlayPacketCodec = void 0;
 const debug_1 = __importDefault(require("debug"));
-const debug = debug_1.default("playactor-iobroker:remoteplay:codec");
+const debug = debug_1.default("playactor-iob:remoteplay:codec");
 const HEADER_SIZE = 8;
 class RemotePlayPacketCodec {
     constructor(crypto, creds, serverNonce) {

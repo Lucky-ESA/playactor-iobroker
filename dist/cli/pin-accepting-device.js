@@ -18,7 +18,7 @@ const debug_1 = __importDefault(require("debug"));
 const helpers_1 = require("../socket/helpers");
 const login_result_1 = require("../socket/packets/incoming/login-result");
 const exit_codes_1 = require("./exit-codes");
-const debug = debug_1.default("playactor-iobroker:cli:pin");
+const debug = debug_1.default("playactor-iob:cli:pin");
 /**
  * The PinAcceptingDevice delegates to another IDevice implementation
  * and, if a login error is encountered caused by a missing pincode,

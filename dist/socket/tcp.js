@@ -31,7 +31,7 @@ const protocolsByVersion = {
     [model_1.DeviceType.PS4]: v1_1.DeviceProtocolV1,
     [model_1.DeviceType.PS5]: undefined,
 };
-const debug = debug_1.default("playactor-iobroker:socket:tcp");
+const debug = debug_1.default("playactor-iob:socket:tcp");
 const defaultOptions = {
     refSocket: false,
 };

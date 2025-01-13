@@ -37,7 +37,7 @@ function redactRecord(record) {
     }, Object.assign({}, record));
 }
 function redact(value) {
-    if (debug_1.default.enabled("playactor-unredacted")) {
+    if (debug_1.default.enabled("playactor-iob-unredacted")) {
         return value;
     }
     if (Array.isArray(value)) {
